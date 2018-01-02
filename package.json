@@ -1,6 +1,6 @@
 {
   "name": "@brett_langdon/lrserver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LiveReload static file server that injects livereload-js into HTML files",
   "main": "main.js",
   "bin": {
