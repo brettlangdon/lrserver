@@ -1,21 +1,22 @@
 {
-  "name": "livereload-server",
+  "name": "lrserver",
   "version": "1.0.0",
   "description": "LiveReload static file server that injects livereload-js into HTML files",
   "main": "main.js",
   "bin": {
-    "livereload-server": "./main.js"
+    "lrserver": "./main.js",
+    "lrs": "./main.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brettlangdon/livereload-server.git"
+    "url": "git+https://github.com/brettlangdon/lrserver.git"
   },
   "author": "Brett Langdon <me@brett.is>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/brettlangdon/livereload-server/issues"
+    "url": "https://github.com/brettlangdon/lrserver/issues"
   },
-  "homepage": "https://github.com/brettlangdon/livereload-server",
+  "homepage": "https://github.com/brettlangdon/lrserver",
   "dependencies": {
     "connect-livereload": "^0.6.0",
     "express": "^4.16.2",
