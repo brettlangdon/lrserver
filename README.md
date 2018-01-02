@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-npm install lrserver
+npm install @brett_langdon/lrserver
 ```
 
 ## Usage
