@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var argv = require('yargs')
     .example('$0 ./path/to/files')
     .example('$0 -w source/scss -w source/js ./public')
