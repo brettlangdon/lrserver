@@ -84,7 +84,10 @@ var lrserver = livereload.createServer({
 });
 
 var app = express();
-app.use(require('connect-livereload')());
+app.use(require('connect-livereload')({
+  port: lrport,
+  host: lrhost,
+}));
 app.use(express.static(serve));
 
 module.exports = {
