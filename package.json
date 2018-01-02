@@ -1,7 +1,7 @@
 {
   "name": "livereload-server",
   "version": "1.0.0",
-  "description": "LiveReload static file server",
+  "description": "LiveReload static file server that injects livereload-js into HTML files",
   "main": "main.js",
   "bin": {
     "livereload-server": "./main.js"
