@@ -1,21 +1,21 @@
 {
   "name": "livereload-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "LiveReload static file server",
   "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "livereload-server": "./main.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brettlangdon/livereload-server.git"
   },
-  "author": "",
+  "author": "Brett Langdon <me@brett.is>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/brettlangdon/livereload-server/issues"
   },
-  "homepage": "https://github.com/brettlangdon/livereload-server#readme",
+  "homepage": "https://github.com/brettlangdon/livereload-server",
   "dependencies": {
     "connect-livereload": "^0.6.0",
     "express": "^4.16.2",
